@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="next.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <div class="login-page"> 
+    <div class="form">
+        <form class="register-form">
+        <input type="number" placeholder="Batch">
+        <input type="number" placeholder="Register Number">
+        <input type="password" placeholder="password">
+        <input type="text" placeholder="Student Name">
+        <input type="text" placeholder="Branch">
+        <input type="text" placeholder="Email">
+        <input type="number" placeholder="Mobile Number">
+        <input type="radio" name = n1 group = g1>Hostel
+        <input type="radio" name = n1 group = g1>Day Scholar
+
+        
+        
+        <button>Create</button>
+        <p class="message">Already Register? <a href="#">Login</a></p>
+    </form>
+        <form class="Login-form">
+            <img src="logo.jpeg">
+           <div class="group"> <input type="number" placeholder="Register Number"> <i class="fa fa-user" ></i></div>
+           <div class="group"><input type="password" placeholder="password"> <i class="fa fa-lock" ></i> </div>  
+         <button><i class="fa fa-send"></i>Login</button>
+         <p class="message">Forgot Password?<a href=""> Click Here</a> </p>
+         <p class="message">Not yet Register? <a href="#">Sign-Up-Here</a></p>
+        </form>
+
+    </div>
+
+
+
+   </div>
+   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+   <script>
+       $('.message a').click(function(){
+        $('form').animate({height:"toggle",opacity:"toggle"},"slow")   
+       })
+   </script>
+</body>
+</html>
