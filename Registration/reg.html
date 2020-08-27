@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN-UP FORM</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                 <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        Register Number
+                         <input type="number" name="Register Number" id="Register Number">
+                    </div>
+                    <div>
+                       Name
+                      <input type="text" name="Name" id="Name">
+                    </div>
+                    <div> 
+                    Mobile Number               
+                    <input type="number"name="Mobile Number" id="Mobile Number">
+                    </div>
+                    <div class="form action--button">
+                    <input type="submit" value="submit"> 
+                    <input type="Reset" value="Reset">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>Register Number</th>
+                            <th>Name</th>
+                            <th>Mobile Number</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+        </tr>
+    </table>    
+</body>
+</html>
